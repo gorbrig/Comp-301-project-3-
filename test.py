@@ -11,9 +11,10 @@
         232,
         237,
         228
-        ]
+   ]
 characters = []
 for val in vals:
-	charcter = chr((val ^ 220) + 1)
+	character = chr((val ^ 220) + 1)
 	characters.append(character) 
+
 print("".join(characters))
